@@ -1,0 +1,16 @@
+import pandas as pd
+import os
+
+data_path = "../data/raw/01_fund_master.csv"
+
+df = pd.read_csv(data_path)
+print("Rows:", df.shape[0])
+print("Columns:", df.shape[1])
+
+df = df.drop_duplicates()
+
+os.makedirs("../data/processed", exist_ok=True)
+
+df.to_csv("../data/processed/mutual_funds_cleaned.csv", index=False)
+
+print("ETL Pipeline Completed Successfully")
