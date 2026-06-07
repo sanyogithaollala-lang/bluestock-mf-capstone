@@ -1,0 +1,24 @@
+Slide 1: Title
+Mutual Fund Recommendation System
+
+Slide 2: Project Objective
+Recommend similar mutual funds.
+
+Slide 3: Dataset
+Mutual fund dataset containing fund details.
+
+Slide 4: Data Cleaning
+Removed duplicates and handled missing values.
+
+Slide 5: EDA
+Analyzed categories, fund houses, and AUM.
+
+Slide 6: Recommendation System
+CountVectorizer + Cosine Similarity.
+
+Slide 7: Results
+Generated Top 5 similar mutual fund recommendations.
+
+Slide 8: Conclusion
+Project completed successfully.
+

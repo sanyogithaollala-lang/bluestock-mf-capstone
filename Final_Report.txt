@@ -1,0 +1,31 @@
+MUTUAL FUND RECOMMENDATION SYSTEM
+
+1. PROJECT OVERVIEW
+This project develops a Mutual Fund Recommendation System using Python and Machine Learning techniques.
+
+2. DATA INGESTION
+Collected and loaded mutual fund datasets from CSV files.
+
+3. DATA CLEANING
+Handled missing values, removed duplicates, and prepared the dataset.
+
+4. EXPLORATORY DATA ANALYSIS
+Performed analysis on categories, fund houses, returns, and AUM values.
+Generated visualizations for better understanding.
+
+5. RECOMMENDATION SYSTEM
+Built a Content-Based Recommendation System using:
+- CountVectorizer
+- Cosine Similarity
+
+6. PERFORMANCE ANALYTICS
+Analyzed mutual fund statistics and performance metrics.
+
+7. ADVANCED ANALYTICS
+Performed category-level and fund-level analysis.
+
+8. RESULTS
+Generated top 5 similar mutual fund recommendations.
+
+9. CONCLUSION
+Successfully built a Mutual Fund Recommendation System capable of recommending similar funds.
